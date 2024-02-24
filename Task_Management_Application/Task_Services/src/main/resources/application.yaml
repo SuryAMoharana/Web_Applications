@@ -1,0 +1,18 @@
+server:
+  port: 8181
+
+spring:
+  application:
+    name:TASK_SERVICES
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/task_service_db
+    username: root
+    password: Surya@1994
+    driver-class-name: com.mysql.cj.jdbc.Driver
+# spring:
+#   jpa:
+#     show-sql: true
