@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name:SUBMISSION_SERVICES
+    name: SUBMISSION_SERVICES
 
   jpa:
     hibernate:

@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name:TASK_SERVICES
+    name: TASK_SERVICES
 
   jpa:
     hibernate:
