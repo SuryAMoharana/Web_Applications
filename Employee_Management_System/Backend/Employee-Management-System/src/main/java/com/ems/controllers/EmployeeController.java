@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin("*")
 @RequestMapping("/api/employees")
 @Tag(name = "EmployeeController", description = "APIs for Employee Management")
 public class EmployeeController {
