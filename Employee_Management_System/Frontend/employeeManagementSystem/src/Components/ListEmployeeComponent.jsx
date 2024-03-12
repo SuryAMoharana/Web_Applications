@@ -6,7 +6,7 @@ const ListEmployeeComponent = () => {
     const [employees, setEmployees] = useState([]);
     const navigator=useNavigate();
     useEffect(()=>{
-        getAllEmployees
+        getAllEmployees();
 
     },[])
 
